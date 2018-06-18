@@ -17,3 +17,6 @@ function currentLine(katzDeliLine) {
   line += line2.join(', ')
   return line2;
   }
+  takeANumber(katzDeli, 'Ada');
+  takeANumber(katzDeli, 'Grace');
+  takeANumber(katzDeli, 'Kent');

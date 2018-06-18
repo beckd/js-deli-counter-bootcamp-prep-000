@@ -17,4 +17,3 @@ function currentLine(katzDeliLine) {
   line += newline.join(', ')
   return line;
   }
-}

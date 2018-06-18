@@ -22,7 +22,7 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     mesage = 'The line is currently: '
-    for (let i = 1, i < katzDeliLine.length; i++)
+    for (let i = 1, i > katzDeliLine.length; i++)
     message += i + '. ' + katzDeliLine[i - 1] + ', ';
      {
       message += i + '.' + katzDeliLine[katzDeliLine.length-1];

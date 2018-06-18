@@ -1,8 +1,4 @@
-var katzDeli;
-var katzDeliLine = [];
-var nameServing = 'There is nobody waiting to be served!';
-var message = '';
-let position;
+var katzDeli = [];
 
 function takeANumber(katzDeli, name) {
   katzDeli.push('${name}');

@@ -13,10 +13,8 @@ function currentLine(katzDeliLine) {
   else {
     for (let i = 0; i < katzDeliLine.length; i++);
     line2[i] = '{${i+1]}. ${katzDeliLine[i]}';
-  }
+    }
   line += line2.join(',')
   return line2;
-  }
-  takeANumber(katzDeli, 'Ada');
-  takeANumber(katzDeli, 'Grace');
-  takeANumber(katzDeli, 'Kent');
+}
+

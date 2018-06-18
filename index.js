@@ -10,7 +10,13 @@ function takeANumber(katzDeliLine, name) {
   message = 'Welcome, ${name}. You are number ${position} in line.'
 }
 function nowServing() {
-
+ if (katzDeliLine.length === 0) {
+   message = nameServing;
+ }
+ else {
+   message = 'Currently serving ${katzDeliLine.shift()}.';
+ }
+ return message;
 }
 function currentLine() {
 

@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name) {
   position = katzDeliLine.length;
   message = 'Welcome, ${name}. You are number ${position} in line.'
 }
-function nowServing() {
+function nowServing(katzDeliLine) {
  if (katzDeliLine.length === 0) {
    message = nameServing;
  }

@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
  if (katzDeliLine.length === 0) {
    message = 'There is nobody waiting in line!';
- }
+  }
  else {
    message = 'Currently serving ${katzDeliLine.shift()}.';
  }

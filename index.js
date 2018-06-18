@@ -4,9 +4,9 @@ var nameServing = 'There is nobody waiting to be served!';
 var message = '';
 let position;
 
-function takeANumber(katzDeliLine, name) {
+function takeANumber(katzDel, name) {
   katzDeliLine.push('${name}');
-  return message = 'Welcome, ${name}. You are number ${katzDeliLine.length} in line.';
+  return message = 'Welcome, ${name}. You are number ${katzDeli.length} in line.';
 }
 
 function nowServing(katzDeliLine) {

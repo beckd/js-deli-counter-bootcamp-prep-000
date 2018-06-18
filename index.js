@@ -11,8 +11,8 @@ function takeANumber(katzDeliLine, name) {
   message = 'Welcome, ${name}. You are number ${position} in line.'
 }
 function nowServing() {
-  
+
 }
 function currentLine() {
-  
+
 }

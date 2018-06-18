@@ -24,9 +24,9 @@ function currentLine(katzDeliLine) {
     mesage = 'The line is currently: '
     for (let i = 1, i < katzDeliLine.length; i++) {
     message += i + '. ' + katzDeliLine[i - 1] + ', ';
-     {
+    }
       message += i + '.' + katzDeliLine[katzDeliLine.length-1];
       return message;
-    }
+  }
   else return (message = 'The line is currently empty.')
 }

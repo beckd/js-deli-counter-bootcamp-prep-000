@@ -9,8 +9,8 @@ function takeANumber(katzDeliLine, name) {
   position = katzDeliLine.length;
   message = 'Welcome, ${name}. You are number ${katzDeliLine.length} in line.'
   return message;
-  }
 }
+
 function nowServing(katzDeliLine) {
  if (katzDeliLine.length === 0) {
    message = 'There is nobody waiting in line!';

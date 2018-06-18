@@ -2,7 +2,6 @@ var katzDeli;
 var katzDeliLine = [];
 var nameServing = 'There is nobody waiting in line!';
 var message = '';
-var name = 'Dave';
 let position;
 
 function takeANumber(katzDeliLine, name) {

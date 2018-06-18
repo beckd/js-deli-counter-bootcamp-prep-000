@@ -13,6 +13,6 @@ function nowServing(katzDeli) {
   if (katzDeli.length === 0) {
    return "There is nobody waiting in line!";
   }
- else {
+ else 
    return ('Currently serving ${katzDeli.shift()}.');
  }

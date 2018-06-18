@@ -11,10 +11,9 @@ function nowServing(katzDeli) {
     i++;
   }
   if (katzDeli.length === 0) {
-   message = 'There is nobody waiting in line!';
+   return = 'There is nobody waiting in line!';
   }
  else {
-   message = 'Currently serving ${katzDeli.shift()}.';
+   return = 'Currently serving ${katzDeli.shift()}.';
  }
- return message;
-}
+ 

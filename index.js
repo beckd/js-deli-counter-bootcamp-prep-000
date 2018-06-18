@@ -2,7 +2,7 @@ var katzDeli;
 var katzDeliLine = [];
 var nameServing = 'There is nobody waiting to be served!';
 var message = '';
-var name = ["Steven", "Blake", "Ada", "Grace"];
+var name = ["Steven", "Blake", "Avi", "Grace"];
 let position;
 
 function takeANumber(katzDeliLine, name) {
@@ -19,6 +19,14 @@ function nowServing(katzDeliLine) {
  }
  return message;
 }
-function currentLine() {
-
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length > 0) {
+    mesage = 'The line is currently: '
+    for (let i = 1, i < katzDeliLine.length; i++)
+    message += i + '. ' + katzDeliLine[i - 1] + ', ';
+     {
+      message += i + '.' + katzDeliLine[katzDeliLine.length-1];
+      return message;
+    }
+  else return (message = 'The line is currently empty.')
 }
